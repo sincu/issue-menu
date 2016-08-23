@@ -27,16 +27,9 @@
 
 /* Base styles */
 .outer-wrap {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 
@@ -70,23 +63,16 @@
 	padding: .4em 1em;
 	text-align: center;
 	background: hsl(0, 0%, 75%);
-margin-top: auto;
+  margin-top: auto;
 }
 
 /*Flexbox stuff*/
 
 @media screen and (min-width: 45em) {
   .outer-wrap {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     min-height: 100vh;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 
 
